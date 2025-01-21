@@ -40,3 +40,19 @@ palabras_reservadas = [
     'with',
     'yield'
 ]
+#Las palabras reservadas no se deben usar. Ejemplo:
+
+nombre = 'Juan'
+print(nombre)
+
+#Concatenación
+nombre_completo = 'Juan' + 'Perez'
+print(nombre_completo)
+
+#Obtener el total de palabras reservadas
+print(len(palabras_reservadas))
+
+#Esto no se debe de hacer
+
+#class = "Programación Estructurada"
+#print(class)
